@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { WeatherService } from '../weather.service';
+import { MatButton, MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-weather',
